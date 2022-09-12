@@ -7,7 +7,6 @@ const QuoteDetail = () => {
   return (
     <>
       <h1>Quote Detail Page {quoteId}</h1>
-      <p>{quoteId}</p>
       <Route path={`/quotes/${quoteId}/comments`}>
         <Comments />
       </Route>
